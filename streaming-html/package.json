@@ -1,0 +1,18 @@
+{
+  "dependencies": {
+    "browserify": "^14.4.0",
+    "compressible": "^2.0.9",
+    "compression": "^1.6.2",
+    "dom-treeadapter": "RReverser/dom-treeadapter",
+    "express": "^4.14.0",
+    "parse5": "^3.0.2"
+  },
+  "scripts": {
+    "build": "browserify -r dom-treeadapter -r parse5/lib/parser -o parser.js",
+    "serve": "node server.js"
+  },
+  "private": true,
+  "repository": "git@github.com:jakearchibald/streaming-html.git",
+  "author": "Jake Archibald <jaffathecake@gmail.com>",
+  "license": "MIT"
+}
