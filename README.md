@@ -1,1 +1,5 @@
 # streaming-iframe
+
+
+# Licence
+MIT
